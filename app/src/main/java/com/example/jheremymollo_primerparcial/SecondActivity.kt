@@ -27,7 +27,7 @@ class SecondActivity : AppCompatActivity() {
     }
 
     private fun startParallelProcess() {
-        Toast.makeText(this, "Procesando", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Procesando... espere un momento.", Toast.LENGTH_SHORT).show()
         Thread {
             try {
                 Thread.sleep(1000)
